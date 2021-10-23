@@ -1,0 +1,282 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap&subset=cyrillic-ext');*/
+/* &display=swap&subset=cyrillic-ext */
+
+@font-face {
+	font-family: "Roboto";
+	src: url("../fonts/Roboto-Black.woff2") format("woff2"), url("../fonts/Roboto-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+/*font-family: 'Roboto', sans-serif;*/
+/* 400 500 700 900 */
+
+/* fonts */
+
+/* -------------------------------------------------------------header */
+
+.wrapper {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+}
+.header,
+.footer {
+	padding: 30px 100px 30px 100px;
+	text-align: center;
+	background: rgb(11, 148, 79);
+}
+/*.block-nav {
+}*/
+.block-nav__item {
+	display: inline-block;
+	padding: 2px 5px;
+}
+.block-nav__link {
+	color: #fff;
+}
+
+/* -------------------------------------------------------------main */
+
+._container {
+	max-width: 1020px;
+	margin: 0px auto;
+}
+.main{
+	background: #f5f5f5;
+}
+
+/* ----------------------------------------------------------PROMISE */
+.mr24 {
+	margin: 0px 24px 0px 0px;
+}
+.mb24{
+	margin: 0px 0px 24px 0px;
+}
+.mb31 {
+	margin: 0px 0px 31px 0px;
+}
+.mb33 {
+	margin: 0px 0px 33px 0px;
+}
+.mb40 {
+	margin: 0px 0px 40px 0px;
+}
+.mb66{
+	margin: 0px 0px 66px 0px;
+}
+.mb80 {
+	margin: 0px 0px 80px 0px;
+}
+.mr107{
+	margin: 0px 107px 0px 0px;
+}
+.mt-185{
+	margin: -185px 0px 0px 0px;
+}
+.promise {
+	padding: 32px 0px 122px 0px;
+	font-size: 0;
+}
+.promise{
+	border-bottom: 1px solid #000;
+}
+.subtitle {
+	padding: 0px 0px 0px 33px;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-align: left;
+	text-transform: uppercase;
+	color: #5d62b5;
+	background: url("../img/promise/promise-icon.svg") -5px -2px no-repeat;
+	color: #5d62b5;
+}
+.title {
+	font-size: 36px;
+	font-weight: 900;
+	line-height: 42px;
+	letter-spacing: 0px;
+	color: #000;
+}
+
+.item {
+	font-size: 0;
+	max-width: 348px;
+	display: inline-block;
+	padding: 0px 24px 0px 0px;
+}
+.item:last-child {
+	max-width: 324px;
+	padding: 0;
+}
+.item__icon {
+	width: 86px;
+	height: 63px;
+	display: inline-block;
+	padding: 0px 23px 0px 0px;
+}
+.item__body {
+	display: inline-block;
+	max-width: 235px;
+	width: 100%;
+	vertical-align: top;
+}
+.item__title {
+	font-size: 19px;
+	font-weight: 900;
+	line-height: 26px;
+	color: #f2726f;
+}
+.item__text {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4b4b4b;
+}
+
+/* -------------------------------------------------------Services */
+
+.services{
+	padding: 128px 0px 104px;
+	background: url("../img/services/service-right-bg.svg") 100% -545px no-repeat;
+}
+
+.card-block {
+	font-size: 0;
+}
+.card-block__item {
+	display: inline-block;
+	max-width: 324px;
+	padding: 50px 55px;
+	text-align: center;
+	background: #fff;
+	border-radius: 20px;
+}
+.card-block__item:hover {
+	filter: drop-shadow(0px 8px 16px rgba(38, 38, 38, 0.24)) drop-shadow(0px 16px 24px rgba(38, 38, 38, 0.2));
+}
+.card-block__icon {
+	padding: 0px 0px 33px 0px;
+}
+.card-block__title {
+	padding: 0px 0px 20px 0px;
+	font-size: 19px;
+	font-weight: 900;
+	line-height: 26px;
+	letter-spacing: 0px;
+	color: #f2726f;
+}
+.card-block__text {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+}
+.button-wrapper {
+	text-align: center;
+}
+.btn {
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 7px;
+	background: #f2726f;
+	padding: 17px 25px;
+}
+.btn:active{
+	background: rgb(167, 228, 26);
+	color: rgba(219, 96, 96, 0.774);
+}
+/* ---------------------------------------------------IMPACT */
+
+.impact {
+	background: url("../img/impact/impact-top-bg.svg") 88% 0 no-repeat #2AB1AD;
+	padding: 108px 0px 212px 0px;
+}
+.block-title {
+	max-width: 411px;
+	display: inline-block;
+}
+.color-white{
+	color: #fff;
+}
+.impact-subtitle-bg{
+	background-image: url("../img/impact/impact-icon.svg");
+}
+
+.block-image{
+	display: inline-block;
+	vertical-align: top;
+}
+.block-image img {
+	border-radius: 40px;
+}
+.impact__body {
+	font-size: 0;
+}
+.stat-block__item {
+	display: inline-block;
+	width: 25%;
+	padding: 0px 24px 0px 0px;
+}
+.stat-icon {
+	display: inline-block;
+	padding: 0px 12px 0px 0px;
+	vertical-align: top;
+}
+.stat-body {
+	display: inline-block;
+	vertical-align: top;
+	padding: 4px 0px 0px 0px;
+}
+.value {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #FFFFFF;
+	padding: 0px 0px 8px 0px;
+	vertical-align: top;
+}
+.context {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #5D62B5;
+	margin: -5px 0px 0px 0px;
+}
+/* -------------------------------------------------------------footer */
+.footer {
+	background: rgb(32, 22, 165);
+}
